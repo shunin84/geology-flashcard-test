@@ -1,0 +1,40 @@
+{
+  "termId": "0006",
+  "termName": "コア回収率",
+  "cards": [
+    {
+      "cardKey": "f001",
+      "prompt": "コア回収率（TCR）の計算式は何か。",
+      "answer": "回収コア長 ÷ 掘進長 × 100%",
+      "detail": "TCR（Total Core Recovery）はボーリングで回収したコアの割合を示す。地盤の崩れやすさや亀裂の多さを反映する。",
+      "tags": ["ボーリング", "コア"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-03-045",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f002",
+      "prompt": "RQD（岩盤品質指標）とは、何cmを超えるコア長の合計を掘進長で割ったものか。",
+      "answer": "10cm以上のコア長の合計 ÷ 掘進長 × 100%",
+      "detail": "RQD（Rock Quality Designation）は10cm以上の連続したコアの割合で岩盤の品質を評価する。RQD90%以上が「Excellent」。",
+      "tags": ["ボーリング", "コア", "岩盤"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-040",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ]
+    }
+  ]
+}

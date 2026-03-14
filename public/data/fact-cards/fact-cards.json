@@ -1,0 +1,510 @@
+{
+  "generatedAt": "2026-03-14T02:51:44.802Z",
+  "cardCount": 17,
+  "cards": [
+    {
+      "cardId": "0004-f001",
+      "termId": "0004",
+      "termName": "地すべり",
+      "chapters": [
+        1
+      ],
+      "chapterLabels": [
+        "第1章"
+      ],
+      "prompt": "地すべりの滑動面の傾斜角は、一般にどの程度以下の緩勾配か。",
+      "answer": "20度以下",
+      "detail": "地すべりは緩勾配の斜面で発生しやすく、滑動面の傾斜は一般に20度以下であることが多い。崩壊（崩落）は急勾配で発生する点と区別する。",
+      "tags": [
+        "地形・地質",
+        "斜面"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-01-003",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0003-f001",
+      "termId": "0003",
+      "termName": "土の粒度試験",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "粒度試験において、ふるい分析と沈降分析の境界となる粒径は何mmか。",
+      "answer": "0.075mm",
+      "detail": "0.075mm（75μm）以上の粒子はふるい分析、それ未満は沈降分析（比重計法）で測定する。",
+      "tags": [
+        "室内試験",
+        "粒度"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-02-005",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0003-f002",
+      "termId": "0003",
+      "termName": "土の粒度試験",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "土の粒度を表す均等係数の計算式は何か（D60とD10を使った式）。",
+      "answer": "D60 / D10",
+      "detail": "D60は通過質量百分率60%の粒径、D10は10%の粒径。均等係数が大きいほど粒径が幅広く分布している。",
+      "tags": [
+        "室内試験",
+        "粒度"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-008",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0004-f002",
+      "termId": "0004",
+      "termName": "地すべり",
+      "chapters": [
+        2,
+        4
+      ],
+      "chapterLabels": [
+        "第2章",
+        "第4章"
+      ],
+      "prompt": "地すべり調査で用いられる主な調査手法を2つ挙げよ。",
+      "answer": "ボーリング調査、孔内傾斜計測定",
+      "detail": "ボーリング調査により地質・地下水状況を把握し、孔内傾斜計により地中の変位を継続的に計測する。地すべり調査は複数の章にまたがる知識が必要。",
+      "tags": [
+        "地形・地質",
+        "斜面",
+        "調査手法"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-02-018",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        },
+        {
+          "occurrenceId": "4-04-030",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0001-f001",
+      "termId": "0001",
+      "termName": "標準貫入試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "標準貫入試験で採取される試料は、乱した試料と乱さない試料のどちらか。",
+      "answer": "乱した試料",
+      "detail": "SPTサンプラー（スプリットバレルサンプラー）で採取されるのは乱した試料であり、乱れの少ない試料ではない。",
+      "tags": [
+        "原位置試験",
+        "試料"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-03-038",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0001-f002",
+      "termId": "0001",
+      "termName": "標準貫入試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "標準貫入試験のN値とは、何cmの貫入に要するハンマー打撃数か。",
+      "answer": "30cm",
+      "detail": "63.5kgのハンマーを76cmの高さから自由落下させ、30cmの貫入に要する打撃数をN値という。",
+      "tags": [
+        "原位置試験",
+        "N値"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-022",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0001-f003",
+      "termId": "0001",
+      "termName": "標準貫入試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "標準貫入試験で使用するサンプラーの名称は何か。",
+      "answer": "スプリットバレルサンプラー（SPTサンプラー）",
+      "detail": "外径51mm、内径35mmの二つ割りの鋼管サンプラー。採取試料は乱した試料となる。",
+      "tags": [
+        "原位置試験",
+        "サンプラー"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-03-039",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0002-f001",
+      "termId": "0002",
+      "termName": "孔内水平載荷試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "孔内水平載荷試験から求められる地盤定数は何か（2つ）。",
+      "answer": "変形係数、水平地盤反力係数",
+      "detail": "孔内水平載荷試験はボーリング孔内で実施し、地盤の水平方向の変形特性を評価する。",
+      "tags": [
+        "原位置試験",
+        "地盤定数"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-015",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0002-f002",
+      "termId": "0002",
+      "termName": "孔内水平載荷試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "孔内水平載荷試験の別称（英語由来の名称）は何か。",
+      "answer": "プレシオメーター試験",
+      "detail": "孔壁に圧力を加えて変形量を計測する試験で、フランス語起源のPressiomètre（プレシオメーター）に由来する。",
+      "tags": [
+        "原位置試験"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "2-03-010",
+          "yearKey": "R2",
+          "yearLabel": "令和2年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0006-f001",
+      "termId": "0006",
+      "termName": "コア回収率",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "コア回収率（TCR）の計算式は何か。",
+      "answer": "回収コア長 ÷ 掘進長 × 100%",
+      "detail": "TCR（Total Core Recovery）はボーリングで回収したコアの割合を示す。地盤の崩れやすさや亀裂の多さを反映する。",
+      "tags": [
+        "ボーリング",
+        "コア"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-03-045",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0006-f002",
+      "termId": "0006",
+      "termName": "コア回収率",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "RQD（岩盤品質指標）とは、何cmを超えるコア長の合計を掘進長で割ったものか。",
+      "answer": "10cm以上のコア長の合計 ÷ 掘進長 × 100%",
+      "detail": "RQD（Rock Quality Designation）は10cm以上の連続したコアの割合で岩盤の品質を評価する。RQD90%以上が「Excellent」。",
+      "tags": [
+        "ボーリング",
+        "コア",
+        "岩盤"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-040",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0007-f001",
+      "termId": "0007",
+      "termName": "平板載荷試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "平板載荷試験で使用する載荷板の直径の標準値は何mmか。",
+      "answer": "300mm（30cm）",
+      "detail": "直径300mmの円形鋼板を使用するのが標準。試験深度は載荷板直径の1.5〜2倍程度の範囲の地盤を評価する。",
+      "tags": [
+        "原位置試験",
+        "載荷試験"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "P1-03-001",
+          "yearKey": "P1",
+          "yearLabel": "予想問題",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": true
+        }
+      ],
+      "isSupplementalOnly": true
+    },
+    {
+      "cardId": "0007-f002",
+      "termId": "0007",
+      "termName": "平板載荷試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "平板載荷試験から求められる地盤係数K30の定義は何か。",
+      "answer": "沈下量1.25mmの時の接地圧（kN/m³）",
+      "detail": "K30 = p / s = 接地圧（kN/m²）÷ 沈下量（m）で定義される。路床・路盤の支持力評価に使用される。",
+      "tags": [
+        "原位置試験",
+        "載荷試験",
+        "地盤係数"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "P1-03-002",
+          "yearKey": "P1",
+          "yearLabel": "予想問題",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": true
+        }
+      ],
+      "isSupplementalOnly": true
+    },
+    {
+      "cardId": "0008-f001",
+      "termId": "0008",
+      "termName": "ベーン試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "ベーン試験から求められる地盤定数は何か。",
+      "answer": "軟弱粘性土の非排水せん断強さ（Cu）",
+      "detail": "十字型の羽根（ベーン）を地盤に押し込み回転させたときのトルクから非排水せん断強さを求める。",
+      "tags": [
+        "原位置試験",
+        "せん断強さ"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-018",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0008-f002",
+      "termId": "0008",
+      "termName": "ベーン試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "ベーン試験の適用対象となる地盤はどのような地盤か（N値を含めて答えよ）。",
+      "answer": "N値2以下の軟弱粘性土地盤",
+      "detail": "N値2以下の非常に軟らかい粘性土地盤に適用する。N値が大きい硬い地盤や砂質地盤には適用できない。",
+      "tags": [
+        "原位置試験",
+        "軟弱地盤"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "2-03-016",
+          "yearKey": "R2",
+          "yearLabel": "令和2年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0005-f001",
+      "termId": "0005",
+      "termName": "地下水位観測",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "地下水位観測に使う観測用パイプの名称は何か。",
+      "answer": "観測孔（ピエゾメーター）",
+      "detail": "ボーリング孔内に設置したパイプで地下水位を計測する。圧力計を用いるものをピエゾメーターと呼ぶ。",
+      "tags": [
+        "地下水",
+        "観測"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-04-025",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0005-f002",
+      "termId": "0005",
+      "termName": "地下水位観測",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "被圧地下水と自由地下水の違いは何か。",
+      "answer": "被圧地下水は上部に不透水層があり、水頭が帯水層上端より高い",
+      "detail": "自由地下水は大気圧と等しい水面を持ち、水位が自由に変動する。被圧地下水は不透水層に挟まれ圧力を受けている。",
+      "tags": [
+        "地下水"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "2-04-020",
+          "yearKey": "R2",
+          "yearLabel": "令和2年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    }
+  ]
+}

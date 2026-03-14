@@ -1,0 +1,120 @@
+.cardWrapper {
+  perspective: 1000px;
+  width: 100%;
+  min-height: 300px;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardInner {
+    transition: none;
+  }
+}
+
+.cardInner.flipped {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--color-border);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.promptText {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.7;
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.flipButton {
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-control);
+  align-self: center;
+  transition: background 0.15s;
+}
+
+.flipButton:hover,
+.flipButton:focus-visible {
+  background: var(--color-accent-strong);
+  outline: 2px solid var(--color-accent-strong);
+  outline-offset: 2px;
+}
+
+.answerLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.answerText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.detailText {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  white-space: pre-wrap;
+}
+
+.sourceRefs {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.sourceTag {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.2rem 0.5rem;
+}
+
+.sourceTagSupplemental {
+  color: var(--color-flag);
+  border-color: var(--color-flag);
+}

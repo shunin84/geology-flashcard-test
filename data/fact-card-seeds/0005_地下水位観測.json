@@ -1,0 +1,40 @@
+{
+  "termId": "0005",
+  "termName": "地下水位観測",
+  "cards": [
+    {
+      "cardKey": "f001",
+      "prompt": "地下水位観測に使う観測用パイプの名称は何か。",
+      "answer": "観測孔（ピエゾメーター）",
+      "detail": "ボーリング孔内に設置したパイプで地下水位を計測する。圧力計を用いるものをピエゾメーターと呼ぶ。",
+      "tags": ["地下水", "観測"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-04-025",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f002",
+      "prompt": "被圧地下水と自由地下水の違いは何か。",
+      "answer": "被圧地下水は上部に不透水層があり、水頭が帯水層上端より高い",
+      "detail": "自由地下水は大気圧と等しい水面を持ち、水位が自由に変動する。被圧地下水は不透水層に挟まれ圧力を受けている。",
+      "tags": ["地下水"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "2-04-020",
+          "yearKey": "R2",
+          "yearLabel": "令和2年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ]
+    }
+  ]
+}
