@@ -112,17 +112,6 @@
   color: #fff;
 }
 
-.btnBack {
-  background: transparent;
-  color: var(--color-text-muted);
-  border-color: var(--color-border);
-  width: 100%;
-}
-
-.btnBack:hover {
-  border-color: var(--color-text-muted);
-  color: var(--color-text);
-}
 
 .btnShuffle {
   background: var(--color-surface);

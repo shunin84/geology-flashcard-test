@@ -58,15 +58,6 @@ export function CardDeck({ cards }: Props) {
             次の問題へ →
           </button>
         </div>
-        {isFlipped && (
-          <button
-            className={`${styles.btn} ${styles.btnBack}`}
-            onClick={flip}
-            aria-label="問題に戻る"
-          >
-            ↩ 問題に戻る
-          </button>
-        )}
         <div className={styles.actionRow}>
           <button
             className={`${styles.btn} ${styles.btnLearned}`}

@@ -42,6 +42,7 @@
 
 .cardBack {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .promptText {

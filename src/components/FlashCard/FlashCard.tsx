@@ -24,7 +24,16 @@ export function FlashCard({ card, isFlipped, onFlip }: Props) {
         </div>
 
         {/* 裏面 */}
-        <div className={styles.cardBack} aria-hidden={!isFlipped} data-testid="card-back">
+        <div
+          className={styles.cardBack}
+          aria-hidden={!isFlipped}
+          data-testid="card-back"
+          onClick={onFlip}
+          role="button"
+          tabIndex={isFlipped ? 0 : -1}
+          aria-label="問題に戻る（タップで戻る）"
+          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onFlip(); }}
+        >
           <p className={styles.answerLabel}>答え</p>
           <p className={styles.answerText}>{card.answer}</p>
           {card.detail && (
