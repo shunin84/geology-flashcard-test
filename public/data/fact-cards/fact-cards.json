@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-14T02:51:44.802Z",
-  "cardCount": 17,
+  "generatedAt": "2026-03-14T05:50:23.833Z",
+  "cardCount": 39,
   "cards": [
     {
       "cardId": "0004-f001",
@@ -124,6 +124,126 @@
           "yearLabel": "令和4年度",
           "chapter": 4,
           "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0011-f001",
+      "termId": "0011",
+      "termName": "液状化",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "FL値による液状化の簡易判定法において、「自然含水比」は必要な項目か。",
+      "answer": "不要",
+      "detail": "FL値法に必要な項目はN値・単位体積重量・細粒分含有率など。自然含水比はFL値の計算には必要ない。液状化判定に用いるFL値は、液状化に対する抵抗（R）を地震時のせん断応力比（L）で除した値。",
+      "tags": [
+        "液状化",
+        "FL値",
+        "判定法"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "1-02-027",
+          "yearKey": "R1",
+          "yearLabel": "令和元年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0011-f002",
+      "termId": "0011",
+      "termName": "液状化",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "液状化しやすい地盤の分布深度は、地表面から何m以内を目安とするか。",
+      "answer": "20m以内（地下水位以深で飽和していること）",
+      "detail": "液状化しやすい地盤の特徴: 飽和した砂質土、N値20程度以下、GL-20m以浅、地下水が地表面から10m以内。粘性土は液状化しにくい。",
+      "tags": [
+        "液状化",
+        "地盤特性"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-02-027",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0011-f003",
+      "termId": "0011",
+      "termName": "液状化",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "液状化が発生しやすい土質は砂質土・粘性土のどちらか。また液状化しやすいN値の目安は？",
+      "answer": "砂質土（N値20程度以下の飽和した緩い砂質土）",
+      "detail": "粘性土は液状化しにくい。液状化は飽和した緩い砂質土で発生しやすく、N値の目安は20程度以下。埋立地や河川の扇状地などの地盤が特に危険。",
+      "tags": [
+        "液状化",
+        "地盤特性",
+        "砂質土"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-02-027",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0013-f004",
+      "termId": "0013",
+      "termName": "三軸圧縮試験",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "三軸圧縮試験で得られる「主応力差−軸ひずみ曲線」の初期の傾きは何を表すか。",
+      "answer": "ヤング率E（弾性係数・変形係数）",
+      "detail": "三軸圧縮試験の主応力差−軸ひずみ関係において、初期の小さいひずみ領域の傾きはヤング率E（弾性係数）に対応する。また三軸圧縮試験からはモールの応力円を作成し、せん断強度定数（c・φ）を求めることができる。",
+      "tags": [
+        "室内土質試験",
+        "三軸圧縮試験",
+        "ヤング率",
+        "変形係数"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-02-025",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
           "isSupplemental": false
         }
       ],
@@ -450,6 +570,278 @@
       "isSupplementalOnly": false
     },
     {
+      "cardId": "0009-f001",
+      "termId": "0009",
+      "termName": "N値",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "砂のN値が5の場合、相対密度の評価（Terzaghiの分類）はどうなるか。",
+      "answer": "緩い",
+      "detail": "N値と砂の相対密度の関係: 0〜4=非常に緩い、4〜10=緩い、10〜30=中位の、30〜50=密な、50以上=非常に密な。N値5は「緩い」に該当する。「非常に緩い」ではない点に注意。",
+      "tags": [
+        "原位置試験",
+        "N値",
+        "砂",
+        "相対密度"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-051",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0009-f002",
+      "termId": "0009",
+      "termName": "N値",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "粘土のN値が5の場合、コンシステンシーの評価はどうなるか。",
+      "answer": "中位の",
+      "detail": "N値と粘土のコンシステンシーの関係: N値<2=非常に軟らかい、2〜4=軟らかい、4〜8=中位の、8〜15=硬い、15〜30=非常に硬い、>30=固結した。N値5は「中位の」に該当する。「軟らかい」ではない点に注意。",
+      "tags": [
+        "原位置試験",
+        "N値",
+        "粘土",
+        "コンシステンシー"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-03-051",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0010-f002",
+      "termId": "0010",
+      "termName": "一軸圧縮試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "一軸圧縮試験装置は何方向に載荷する試験装置か。",
+      "answer": "軸方向のみ（拘束圧なし）",
+      "detail": "一軸圧縮試験装置は軸方向のみ載荷する。三軸圧縮試験では側方から拘束圧をかけながら軸方向に載荷する点と区別する。圧密試験装置は荷重載荷による「圧密」を行う装置であり、せん断はできない。",
+      "tags": [
+        "室内土質試験",
+        "一軸圧縮試験",
+        "試験装置"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-03-053",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0010-f003",
+      "termId": "0010",
+      "termName": "一軸圧縮試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "岩石の一軸圧縮試験方法（JGS 2521-2020）において、供試体の直径の標準範囲はいくらか。",
+      "answer": "50〜100mm",
+      "detail": "供試体の直径は50〜100mmを標準とする。また、高さは直径の2倍を標準（許容範囲1.8〜2.5倍）とし、軸ひずみ速度は毎分0.01〜0.1%を標準とする。",
+      "tags": [
+        "岩石試験",
+        "一軸圧縮試験",
+        "供試体"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-03-057",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0010-f004",
+      "termId": "0010",
+      "termName": "一軸圧縮試験",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "岩石の一軸圧縮試験に用いる供試体の高さは、直径の何倍を標準とするか。また許容範囲は？",
+      "answer": "直径の2倍（許容範囲は1.8〜2.5倍）",
+      "detail": "供試体高さは直径の2倍を標準とする。「1〜2倍」ではなく「2倍」が標準である点に注意。許容範囲は直径の1.8〜2.5倍。",
+      "tags": [
+        "岩石試験",
+        "一軸圧縮試験",
+        "供試体"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-03-058",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0011-f004",
+      "termId": "0011",
+      "termName": "液状化",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "細粒分を20%含む砂質土の液状化判定に用いる試験として不適切なのはどれか。（土の粒度試験・圧密非排水CU三軸試験・繰返し非排水三軸試験・液性限界塑性限界試験）",
+      "answer": "圧密非排水（CU）三軸圧縮試験",
+      "detail": "液状化判定に用いる試験は、粒度試験・繰返し非排水三軸試験・液性限界塑性限界試験など。CU三軸試験は液状化判定には用いない。繰返し非排水三軸試験（液状化強度試験）が液状化判定の主要な試験である。",
+      "tags": [
+        "液状化",
+        "判定試験",
+        "三軸圧縮試験"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "1-03-060",
+          "yearKey": "R1",
+          "yearLabel": "令和元年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0012-f001",
+      "termId": "0012",
+      "termName": "RQD",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "RQD（Rock Quality Designation）とは何か。何cm以上のコアの総延長比か。",
+      "answer": "10cm以上のコアの総延長を掘進長で割った百分率",
+      "detail": "RQDは岩盤の良否を表す指標で、単位区間（通常1m）当たりの10cm以上の長さのボーリングコアの総延長を掘進長で割った百分率。「個々のコアの長さはコアの中心線上で測定する」。",
+      "tags": [
+        "岩盤調査",
+        "RQD",
+        "コア採取"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-03-046",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0012-f002",
+      "termId": "0012",
+      "termName": "RQD",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "RQDが40%の場合、岩盤状態の評価はどうなるか。",
+      "answer": "悪い",
+      "detail": "RQDの評価基準: 0〜25%=非常に悪い、25〜50%=悪い、50〜75%=普通、75〜90%=良い、90〜100%=非常に良い。RQD40%は25〜50%の範囲で「悪い」に該当する。",
+      "tags": [
+        "岩盤調査",
+        "RQD",
+        "岩盤評価"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-03-051",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0012-f003",
+      "termId": "0012",
+      "termName": "RQD",
+      "chapters": [
+        3
+      ],
+      "chapterLabels": [
+        "第3章"
+      ],
+      "prompt": "最大コア長は、何ごとの最も長いコア長を表示するか。",
+      "answer": "サンプラー引き上げごと（1削孔長ごと）",
+      "detail": "最大コア長はサンプラー引き上げごと（1削孔長ごと）の最も長いコア長を表示する。「コア箱収納ごと」ではない点に注意。",
+      "tags": [
+        "岩盤調査",
+        "コア採取",
+        "コア採取率"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-03-046",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
       "cardId": "0005-f001",
       "termId": "0005",
       "termName": "地下水位観測",
@@ -501,6 +893,283 @@
           "yearLabel": "令和2年度",
           "chapter": 4,
           "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0009-f003",
+      "termId": "0009",
+      "termName": "N値",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "試験深度が深くなると、ロッドと孔壁の摩擦などによりN値は過大・過小のどちらになるか。",
+      "answer": "過大",
+      "detail": "試験深度が深くなるとロッドと孔壁の摩擦が増加するためN値が過大になることがある。「過小」ではなく「過大」である点に注意。なお、砂礫地盤や孔底のカッティングスが残っている場合もN値は過大になる傾向がある。",
+      "tags": [
+        "原位置試験",
+        "N値",
+        "留意事項"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-04-072",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0009-f004",
+      "termId": "0009",
+      "termName": "N値",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "孔底にカッティングス（スライム）が多く残った状態でSPTを実施すると、N値は過大・過小のどちらになるか。",
+      "answer": "過大",
+      "detail": "カッティングスや崩壊土砂が孔底に溜まっていると、SPTサンプラーの先詰まりなどが原因となってN値が過大に評価される。孔底は試験前に十分清掃する必要がある。",
+      "tags": [
+        "原位置試験",
+        "N値",
+        "留意事項",
+        "カッティングス"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-04-072",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0010-f001",
+      "termId": "0010",
+      "termName": "一軸圧縮試験",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "サンプリング試料が乱れている場合、繰返し非排水三軸試験における液状化抵抗比はどうなるか。",
+      "answer": "小さくなる",
+      "detail": "試料が乱れると構造が破壊されるため液状化抵抗比は小さくなる。また同条件で、一軸圧縮試験における変形係数E50は小さくなり、破壊ひずみは大きくなる傾向がある。",
+      "tags": [
+        "室内土質試験",
+        "一軸圧縮試験",
+        "試料の乱れ",
+        "液状化"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-04-074",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0010-f005",
+      "termId": "0010",
+      "termName": "一軸圧縮試験",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "CD三軸圧縮試験は、排水条件・非排水条件のどちらでの強度を得る試験か。",
+      "answer": "排水条件",
+      "detail": "CDはConsolidated Drainedの略で、圧密後に排水させながら載荷し排水条件での強度を得る試験。非排水条件での強度が得られる試験はUU・CU・CUバー三軸試験（Uが含まれる試験）である。",
+      "tags": [
+        "室内土質試験",
+        "三軸圧縮試験",
+        "CD試験",
+        "排水条件"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-04-074",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0013-f001",
+      "termId": "0013",
+      "termName": "三軸圧縮試験",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "飽和度の高い粘性土にUU三軸圧縮試験を行うと、破壊包絡線の傾き（φu）はどうなるか。",
+      "answer": "ほぼ0（水平）",
+      "detail": "飽和度の高い粘性土ではUU三軸試験の破壊包絡線はほぼ水平（φu≒0）となる。また一軸圧縮試験の結果は「拘束圧0のUU三軸試験」に相当する。",
+      "tags": [
+        "室内土質試験",
+        "三軸圧縮試験",
+        "UU試験",
+        "粘性土"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-04-074",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0013-f005",
+      "termId": "0013",
+      "termName": "三軸圧縮試験",
+      "chapters": [
+        4
+      ],
+      "chapterLabels": [
+        "第4章"
+      ],
+      "prompt": "一軸圧縮試験で鋭敏比Stを求めるには、どのような試験を組み合わせるか。",
+      "answer": "乱さない試料の試験と、同じ土を練り返した後の試験を行う",
+      "detail": "鋭敏比St ＝ 乱さない試料の一軸圧縮強さ ÷ 練り返した試料の一軸圧縮強さ。St値が大きいほど鋭敏な粘土。鋭敏比の大きい試料は練り返すと供試体が自立しなくなることがある。",
+      "tags": [
+        "室内土質試験",
+        "一軸圧縮試験",
+        "鋭敏比"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-04-074",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 4,
+          "chapterLabel": "第4章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0009-f005",
+      "termId": "0009",
+      "termName": "N値",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "未固結地盤において、S波速度とN値に明瞭な相関関係は認められるか。",
+      "answer": "認められる（相関関係がある）",
+      "detail": "未固結地盤のS波速度とN値には明瞭な相関関係があり、S波速度から地層の推定が可能である。一方、P波速度はN値と明瞭な相関は認められない。",
+      "tags": [
+        "弾性波",
+        "S波",
+        "N値",
+        "地盤物性"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-05-090",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0013-f002",
+      "termId": "0013",
+      "termName": "三軸圧縮試験",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "圧密非排水（CUバー）三軸圧縮試験は、どのような設計・検討で利用されるか。",
+      "answer": "粘性土地盤の長期安定解析",
+      "detail": "CUバー試験は粘性土地盤における長期安定解析等に利用される。軸圧縮過程で間隙水圧を測定して有効主応力を算定するのが特徴。非圧密非排水（UU）試験は杭の周面摩擦力の算定などに利用される。",
+      "tags": [
+        "室内土質試験",
+        "三軸圧縮試験",
+        "CUバー試験",
+        "長期安定"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-05-086",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0013-f003",
+      "termId": "0013",
+      "termName": "三軸圧縮試験",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "圧密排水（CD）三軸圧縮試験は、粘性土・砂質土のどちらの地盤で主に利用されるか。",
+      "answer": "砂質土地盤（過剰間隙水圧が生じない場合）",
+      "detail": "CD三軸試験は砂質土地盤のような過剰間隙水圧が生じない場合の支持力計算等に利用される。粘性土の長期安定解析にはCUバー試験が用いられる。粘性土の短期安定検討には一軸圧縮試験またはUU試験が用いられる。",
+      "tags": [
+        "室内土質試験",
+        "三軸圧縮試験",
+        "CD試験",
+        "砂質土"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-05-086",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
           "isSupplemental": false
         }
       ],

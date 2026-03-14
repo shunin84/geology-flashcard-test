@@ -1,0 +1,57 @@
+{
+  "termId": "0012",
+  "termName": "RQD",
+  "cards": [
+    {
+      "cardKey": "f001",
+      "prompt": "RQD（Rock Quality Designation）とは何か。何cm以上のコアの総延長比か。",
+      "answer": "10cm以上のコアの総延長を掘進長で割った百分率",
+      "detail": "RQDは岩盤の良否を表す指標で、単位区間（通常1m）当たりの10cm以上の長さのボーリングコアの総延長を掘進長で割った百分率。「個々のコアの長さはコアの中心線上で測定する」。",
+      "tags": ["岩盤調査", "RQD", "コア採取"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-03-046",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f002",
+      "prompt": "RQDが40%の場合、岩盤状態の評価はどうなるか。",
+      "answer": "悪い",
+      "detail": "RQDの評価基準: 0〜25%=非常に悪い、25〜50%=悪い、50〜75%=普通、75〜90%=良い、90〜100%=非常に良い。RQD40%は25〜50%の範囲で「悪い」に該当する。",
+      "tags": ["岩盤調査", "RQD", "岩盤評価"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-03-051",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f003",
+      "prompt": "最大コア長は、何ごとの最も長いコア長を表示するか。",
+      "answer": "サンプラー引き上げごと（1削孔長ごと）",
+      "detail": "最大コア長はサンプラー引き上げごと（1削孔長ごと）の最も長いコア長を表示する。「コア箱収納ごと」ではない点に注意。",
+      "tags": ["岩盤調査", "コア採取", "コア採取率"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-03-046",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 3,
+          "chapterLabel": "第3章",
+          "isSupplemental": false
+        }
+      ]
+    }
+  ]
+}
