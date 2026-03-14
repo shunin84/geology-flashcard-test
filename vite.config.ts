@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/geology-flashcard-test/',
+  base: '/geology-flashcard/',
   plugins: [react()],
   test: {
     globals: true,
