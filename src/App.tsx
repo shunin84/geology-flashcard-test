@@ -84,10 +84,8 @@ function App() {
             maxWidth: 'var(--max-content-width)',
             margin: '0 auto',
             display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '0.5rem',
+            flexDirection: 'column',
+            gap: '0.4rem',
           }}
         >
           <h1
@@ -102,10 +100,7 @@ function App() {
           </h1>
 
           {screen === 'cards' && loadState.type === 'loaded' && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: 'auto' }}>
-              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', whiteSpace: 'nowrap' }}>
-                {selectedChapterLabel}　{filteredCards.length}枚
-              </span>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <button
                 onClick={handleBackToChapterSelect}
                 aria-label="章選択に戻る"
@@ -129,6 +124,9 @@ function App() {
               >
                 ×
               </button>
+              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', whiteSpace: 'nowrap' }}>
+                {selectedChapterLabel}　{filteredCards.length}枚
+              </span>
             </div>
           )}
         </div>

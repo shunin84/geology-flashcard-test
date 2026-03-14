@@ -112,12 +112,12 @@
 }
 
 .btnShuffle[aria-pressed='true'] {
-  background: var(--color-accent);
+  background: #6b7a8d;
   color: #fff;
-  border-color: var(--color-accent);
+  border-color: #6b7a8d;
 }
 
 .btnShuffle:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  border-color: #6b7a8d;
+  color: #6b7a8d;
 }
