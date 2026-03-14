@@ -4,7 +4,7 @@ import type { FactCard } from '../types';
 export async function loadFactCards(): Promise<FactCard[]> {
   let response: Response;
   try {
-    response = await fetch('/data/fact-cards/fact-cards.json');
+    response = await fetch(`${import.meta.env.BASE_URL}data/fact-cards/fact-cards.json`);
   } catch (err) {
     throw new Error(`ネットワークエラー: fact-cards.json の取得に失敗しました。`);
   }
