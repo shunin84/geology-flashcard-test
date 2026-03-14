@@ -3,12 +3,22 @@ import styles from './ChapterSelect.module.css';
 
 const CHAPTER_SUBTITLES: Record<number, string> = {
   1: '社会一般・行政・入札契約等',
-  2: '地質・土質の基礎',
-  3: '調査・試験',
-  4: '計画・実施・管理',
-  5: '解析・評価',
-  6: '機器・器具等の取り扱い',
+  2: '地質、測量、土木、建築等の知識',
+  3: '現場技術の知識',
+  4: '調査技術の理解度',
+  5: '解析手法、設計・施工への適用',
+  6: '管理技法',
 };
+
+// カードがなくても表示する章の定義
+const ALL_CHAPTERS: { ch: number; label: string }[] = [
+  { ch: 1, label: '第1章' },
+  { ch: 2, label: '第2章' },
+  { ch: 3, label: '第3章' },
+  { ch: 4, label: '第4章' },
+  { ch: 5, label: '第5章' },
+  { ch: 6, label: '第6章' },
+];
 
 type Props = {
   allCards: FactCard[];
@@ -16,18 +26,6 @@ type Props = {
 };
 
 export function ChapterSelect({ allCards, onSelect }: Props) {
-  // カードから章情報を収集
-  const chapterLabelMap = new Map<number, string>();
-  for (const card of allCards) {
-    for (let i = 0; i < card.chapters.length; i++) {
-      if (!chapterLabelMap.has(card.chapters[i])) {
-        chapterLabelMap.set(card.chapters[i], card.chapterLabels[i]);
-      }
-    }
-  }
-
-  const availableChapters = Array.from(chapterLabelMap.keys()).sort((a, b) => a - b);
-
   const countByChapter = (ch: number) =>
     allCards.filter((c) => c.chapters.includes(ch)).length;
 
@@ -40,21 +38,24 @@ export function ChapterSelect({ allCards, onSelect }: Props) {
         </div>
 
         <div className={styles.grid}>
-          {availableChapters.map((ch) => {
-            const label = chapterLabelMap.get(ch) ?? `第${ch}章`;
+          {ALL_CHAPTERS.map(({ ch, label }) => {
             const subtitle = CHAPTER_SUBTITLES[ch];
             const count = countByChapter(ch);
+            const isEmpty = count === 0;
             return (
               <button
                 key={ch}
-                className={styles.chapterBtn}
-                onClick={() => onSelect([ch])}
+                className={`${styles.chapterBtn} ${isEmpty ? styles.chapterBtnEmpty : ''}`}
+                onClick={() => !isEmpty && onSelect([ch])}
+                disabled={isEmpty}
               >
                 <span className={styles.chapterLabel}>{label}</span>
                 {subtitle && (
                   <span className={styles.chapterSubtitle}>{subtitle}</span>
                 )}
-                <span className={styles.chapterCount}>{count}枚</span>
+                <span className={styles.chapterCount}>
+                  {isEmpty ? '準備中' : `${count}枚`}
+                </span>
               </button>
             );
           })}

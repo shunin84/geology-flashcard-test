@@ -72,6 +72,18 @@
   outline-offset: 2px;
 }
 
+.chapterBtnEmpty {
+  opacity: 0.45;
+  cursor: not-allowed;
+  border-style: dashed;
+}
+
+.chapterBtnEmpty:hover {
+  border-color: var(--color-border);
+  box-shadow: var(--shadow-card);
+  transform: none;
+}
+
 .chapterLabel {
   font-size: 1.05rem;
   font-weight: 700;
