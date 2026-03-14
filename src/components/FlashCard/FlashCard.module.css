@@ -1,14 +1,36 @@
 .cardWrapper {
+  perspective: 1000px;
   width: 100%;
+  min-height: 300px;
 }
 
-.faceHidden {
-  display: none;
+.cardInner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardInner {
+    transition: none;
+  }
+}
+
+.cardInner.flipped {
+  transform: rotateY(180deg);
 }
 
 .cardFront,
 .cardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  min-height: 300px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   background: var(--color-surface);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
@@ -16,7 +38,10 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
 }
 
 .promptText {
