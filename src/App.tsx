@@ -137,7 +137,6 @@ function App() {
           maxWidth: 'var(--max-content-width)',
           margin: '0 auto',
           padding: '1.25rem 1rem',
-          paddingBottom: screen === 'cards' ? '10rem' : '1.25rem',
           display: 'flex',
           flexDirection: 'column',
           gap: '1.25rem',
