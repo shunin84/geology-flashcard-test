@@ -109,17 +109,18 @@ function App() {
               <button
                 onClick={handleBackToChapterSelect}
                 style={{
-                  fontSize: '0.8rem',
-                  padding: '0.3rem 0.75rem',
-                  background: 'transparent',
-                  border: '1px solid var(--color-border)',
+                  fontSize: '0.85rem',
+                  fontWeight: 700,
+                  padding: '0.45rem 1rem',
+                  background: 'var(--color-accent)',
+                  border: 'none',
                   borderRadius: 'var(--radius-control)',
-                  color: 'var(--color-text-muted)',
+                  color: '#fff',
                   cursor: 'pointer',
                   fontFamily: 'inherit',
                 }}
               >
-                章を変える
+                ← 章を変える
               </button>
             </div>
           )}

@@ -1,6 +1,15 @@
 import type { FactCard } from '../../types';
 import styles from './ChapterSelect.module.css';
 
+const CHAPTER_SUBTITLES: Record<number, string> = {
+  1: '社会一般・行政・入札契約等',
+  2: '地質・土質の基礎',
+  3: '調査・試験',
+  4: '計画・実施・管理',
+  5: '解析・評価',
+  6: '機器・器具等の取り扱い',
+};
+
 type Props = {
   allCards: FactCard[];
   onSelect: (chapters: number[]) => void;
@@ -33,6 +42,7 @@ export function ChapterSelect({ allCards, onSelect }: Props) {
         <div className={styles.grid}>
           {availableChapters.map((ch) => {
             const label = chapterLabelMap.get(ch) ?? `第${ch}章`;
+            const subtitle = CHAPTER_SUBTITLES[ch];
             const count = countByChapter(ch);
             return (
               <button
@@ -41,6 +51,9 @@ export function ChapterSelect({ allCards, onSelect }: Props) {
                 onClick={() => onSelect([ch])}
               >
                 <span className={styles.chapterLabel}>{label}</span>
+                {subtitle && (
+                  <span className={styles.chapterSubtitle}>{subtitle}</span>
+                )}
                 <span className={styles.chapterCount}>{count}枚</span>
               </button>
             );

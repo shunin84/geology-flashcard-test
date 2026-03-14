@@ -78,6 +78,13 @@
   color: var(--color-text);
 }
 
+.chapterSubtitle {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.3;
+}
+
 .chapterCount {
   font-size: 0.8rem;
   color: var(--color-text-muted);

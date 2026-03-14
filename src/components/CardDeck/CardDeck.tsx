@@ -24,17 +24,10 @@ export function CardDeck({ cards }: Props) {
 
   const handleLearned = () => {
     markLearned(card.cardId, !progress.learned);
-    if (!progress.learned) {
-      // 学習済みにした後は次へ（最後なら先頭に戻る）
-      goNext(cards.length);
-    }
   };
 
   const handleFlag = () => {
     toggleFlag(card.cardId);
-    if (!progress.flagged) {
-      goNext(cards.length);
-    }
   };
 
   return (
@@ -54,7 +47,7 @@ export function CardDeck({ cards }: Props) {
           onClick={() => goPrev(cards.length)}
           aria-label="前のカードへ"
         >
-          ← 前へ
+          ← 前の問題へ
         </button>
         <button
           className={`${styles.btn} ${styles.btnLearned}`}
@@ -77,7 +70,7 @@ export function CardDeck({ cards }: Props) {
           onClick={() => goNext(cards.length)}
           aria-label="次のカードへ"
         >
-          次へ →
+          次の問題へ →
         </button>
         <button
           className={`${styles.btn} ${styles.btnShuffle}`}
