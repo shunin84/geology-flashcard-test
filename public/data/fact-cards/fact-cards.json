@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-14T14:21:57.694Z",
-  "cardCount": 96,
+  "generatedAt": "2026-03-14T14:26:29.235Z",
+  "cardCount": 100,
   "cards": [
     {
       "cardId": "0021-f001",
@@ -2545,6 +2545,128 @@
       "sourceRefs": [
         {
           "occurrenceId": "3-05-079",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0040-f001",
+      "termId": "0040",
+      "termName": "土留め開削工法",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "グラベルドレーン工法はボイリング対策として適切か。また何のための工法か。",
+      "answer": "不適切。グラベルドレーン工法は液状化防止（間隙水圧の上昇抑制）のための工法であり、ボイリング対策ではない",
+      "detail": "グラベルドレーン工法は軟弱地盤中に砕石（グラベル）を充填した縦方向の排水層（ドレーン）を設けて間隙水圧の上昇を抑制し、液状化を防止する工法。ボイリングは砂質土地盤で土留壁背面と掘削面の水位差で発生し、対策は止水壁の根入れ深さの確保や掘削内の水位上昇等。試験では「砂質土地盤のボイリング対策→グラベルドレーン工法」という誤り選択肢が出題される（令和3年度）。",
+      "tags": [
+        "第5章",
+        "土留め",
+        "ボイリング",
+        "液状化"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-05-084",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0040-f002",
+      "termId": "0040",
+      "termName": "土留め開削工法",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "N値3程度の粘性土地盤で施工途中にヒービングが発生した場合、有効な対策を答えよ。",
+      "answer": "受動側（掘削底面側）の地盤改良工法が有効",
+      "detail": "ヒービングは軟弱粘性土地盤で、掘削底面の土が土留壁背面側の土の重量でせん断破壊し隆起する現象。対策として受動側（掘削内）の地盤改良（深層混合処理等）が有効。N値3程度の軟弱地盤では特に施工中のヒービングに注意が必要。",
+      "tags": [
+        "第5章",
+        "土留め",
+        "ヒービング",
+        "地盤改良"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-05-084",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0040-f003",
+      "termId": "0040",
+      "termName": "土留め開削工法",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "土留め壁の変形に伴う周辺地盤の沈下を抑制するための施工上の対策を2つ答えよ。",
+      "answer": "①各部材の結合を確実に行う。②プレロード（切梁等に予め荷重をかけ変形を抑制）を適用する",
+      "detail": "土留め壁が変形すると、背面地盤が沈下し周辺構造物に影響する。対策：①腹起し・切梁の結合部を確実に施工する（変形の防止）②プレロードをかける（切梁に予め圧縮力を導入して土留め壁の変形を積極的に抑制）。都市部の開削工事では周辺への影響を最小化することが重要。",
+      "tags": [
+        "第5章",
+        "土留め",
+        "変形対策"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-05-084",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 5,
+          "chapterLabel": "第5章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0040-f004",
+      "termId": "0040",
+      "termName": "土留め開削工法",
+      "chapters": [
+        5
+      ],
+      "chapterLabels": [
+        "第5章"
+      ],
+      "prompt": "地下水位が低下した場合、粘性土層の圧密沈下量はどうなるか。",
+      "answer": "増加する（地下水位低下→有効応力増加→圧密沈下が進行）",
+      "detail": "地下水位が低下すると、地盤に作用する有効応力が増加し、粘性土層に圧密沈下が発生・進行する。これは工事中の揚水や地下水位低下工法実施時に周辺地盤で発生しやすい。地下水位低下は軟弱粘性土層が存在する場合は特に注意が必要（令和3年度の適切な選択肢として出題）。",
+      "tags": [
+        "第5章",
+        "圧密沈下",
+        "地下水位"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-05-087",
           "yearKey": "R3",
           "yearLabel": "令和3年度",
           "chapter": 5,
