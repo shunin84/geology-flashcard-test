@@ -41,13 +41,6 @@ export function FlashCard({ card, isFlipped, onFlip }: Props) {
               </span>
             ))}
           </div>
-          <button
-            className={styles.backButton}
-            onClick={onFlip}
-            aria-label="問題に戻る"
-          >
-            ↩ 問題に戻る
-          </button>
         </div>
       </div>
     </div>
