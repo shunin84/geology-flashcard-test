@@ -1,0 +1,74 @@
+{
+  "termId": "0022",
+  "termName": "TECRIS",
+  "cards": [
+    {
+      "cardKey": "f001",
+      "prompt": "TECRISへの受注者による任意登録は認められているか。",
+      "answer": "認められている（登録義務業務と任意登録業務の2種類がある）",
+      "detail": "TECRISへの登録には「登録義務業務」と「任意登録業務」がある。したがって受注者による任意登録も認められており、「発注機関の仕様書等で義務付けられた業務のみ登録可能・任意登録不可」という記述は誤り。",
+      "tags": ["第1章", "行政", "TECRIS"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-01-014",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f002",
+      "prompt": "TECRISの登録時期を全て答えよ。",
+      "answer": "業務受注時・業務内容変更時（請負金額変更等）・業務完了時の3回",
+      "detail": "TECRISは「業務受注時」「業務内容変更時」「業務完了時」の3つのタイミングで登録を行う。「業務受注時と完了時のみ」という記述は誤りで、変更時（請負金額変更などが行われた時）も含まれる。",
+      "tags": ["第1章", "行政", "TECRIS"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-01-014",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f003",
+      "prompt": "TECRIS業務完了時の登録において、業務概要の最大文字数はいくらか。",
+      "answer": "全半角500字以内",
+      "detail": "業務概要は全半角500字以内まで登録できる。「300字以内」または「全角300字以内」という誤った記述が試験でよく出題される。コリンズ・テクリス登録システムマニュアル（テクリス利用者編）に記載。",
+      "tags": ["第1章", "行政", "TECRIS"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-01-014",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f004",
+      "prompt": "TECRIS業務完了時の登録において、業務キーワードは最大何個登録できるか。",
+      "answer": "最大10個",
+      "detail": "業務実績データとして登録できる業務キーワードは最大10個。「最大5個」という誤った選択肢が試験でよく出題される。業務概要（500字以内）と合わせて覚えること。",
+      "tags": ["第1章", "行政", "TECRIS"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-01-014",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    }
+  ]
+}

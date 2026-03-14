@@ -1,0 +1,91 @@
+{
+  "termId": "0024",
+  "termName": "BIM/CIM",
+  "cards": [
+    {
+      "cardKey": "f001",
+      "prompt": "BIM/CIMモデルの3つの構成要素を答えよ。",
+      "answer": "①3次元モデル　②属性情報　③参照資料",
+      "detail": "BIM/CIMモデルは「3次元モデル（対象構造物等の形状を3Dで表現したもの）」「属性情報（部材の名称・形状・寸法・物性値・数量等）」「参照資料（従来の2次元図面等の機械判読できない補足資料）」の3つで構成される。「3次元モデルのみで構成される」という記述は誤り。",
+      "tags": ["第2章", "BIM/CIM"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-02-028",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f002",
+      "prompt": "BIM/CIMは安全管理の向上にも対応できるか。",
+      "answer": "できる（施工手順の3Dシミュレーションで安全管理の向上が期待できる）",
+      "detail": "BIM/CIMは施工手順の確認・工程管理・資機材調達の効率化だけでなく、安全管理の向上にも対応できる。「安全管理の向上には対応できない」という記述は誤り。また3次元モデルによる計画内容の説明で、住民等の合意形成の迅速化も期待できる。",
+      "tags": ["第2章", "BIM/CIM"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-028",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f003",
+      "prompt": "電子納品要領においてBIM/CIM関連データを格納するフォルダ名は何か。",
+      "answer": "BIMCIMフォルダ",
+      "detail": "土木設計業務等電子納品要領では、BIM/CIMに関する電子データファイルは「BIMCIM」フォルダに格納する。「ICON」フォルダという誤った記述が試験で出題される（R6）。",
+      "tags": ["第1章", "BIM/CIM"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-01-006",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f004",
+      "prompt": "直轄土木業務の工事における BIM/CIM義務項目の適用前提条件は何か。",
+      "answer": "設計等の前段階で3次元モデルを作成していること",
+      "detail": "「直轄土木業務・工事におけるBIM/CIM適用に関する実施方針」では、工事における義務項目は設計等の前段階で3次元モデルを作成していることを前提とする。前段階でモデルを作成していない場合は活用しなくてよい。「前段階でモデルを作成していない場合も義務がある」という記述は誤り。",
+      "tags": ["第1章", "BIM/CIM"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-01-006",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    },
+    {
+      "cardKey": "f005",
+      "prompt": "地質・土質調査業務はBIM/CIM適用の対象に含まれるか。",
+      "answer": "含まれる（地質・土質調査業務共通仕様書に基づき実施する業務が対象）",
+      "detail": "「直轄土木業務・工事におけるBIM/CIM適用に関する実施方針」では、地質・土質調査業務共通仕様書に基づき実施する地質・土質調査業務もBIM/CIM適用の対象に含まれている。",
+      "tags": ["第1章", "BIM/CIM"],
+      "sourceRefs": [
+        {
+          "occurrenceId": "6-01-006",
+          "yearKey": "R6",
+          "yearLabel": "令和6年度",
+          "chapter": 1,
+          "chapterLabel": "第1章",
+          "isSupplemental": false
+        }
+      ]
+    }
+  ]
+}
