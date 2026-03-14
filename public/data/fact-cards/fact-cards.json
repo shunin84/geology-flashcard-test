@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-14T14:05:14.694Z",
-  "cardCount": 63,
+  "generatedAt": "2026-03-14T14:13:29.041Z",
+  "cardCount": 75,
   "cards": [
     {
       "cardId": "0021-f001",
@@ -852,6 +852,364 @@
           "occurrenceId": "3-02-028",
           "yearKey": "R3",
           "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0031-f001",
+      "termId": "0031",
+      "termName": "土砂災害の種類",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "土石流の定義を答えよ。",
+      "answer": "大量の降雨で発生した土砂が水と混じり合い、斜面や谷底を高速で流れ下る現象",
+      "detail": "土石流は「ゆっくり押し流される」ではなく「高速で流れ下る」が正しい。山腹や渓床の土砂石礫が水と一体となってゆっくり下流へ押し流される現象として出題されることがあるが、それは誤りの選択肢。土石流は瞬発的・高速・壊滅的な特徴を持つ。",
+      "tags": [
+        "第2章",
+        "土砂災害",
+        "地すべり"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-024",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0031-f002",
+      "termId": "0031",
+      "termName": "土砂災害の種類",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "がけ崩れの定義を答えよ。",
+      "answer": "雨や地震などの影響で土の抵抗力が弱まり、急激に斜面が崩れ落ちる現象",
+      "detail": "がけ崩れは「急激に斜面が崩れ落ちる」が特徴。地すべり（斜面下方への緩慢な移動）と混同しやすい。がけ崩れは短時間・急激・比較的規模が小さい傾向がある。",
+      "tags": [
+        "第2章",
+        "土砂災害"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-02-022",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0031-f003",
+      "termId": "0031",
+      "termName": "土砂災害の種類",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "地すべりの定義を答えよ。",
+      "answer": "斜面の土塊が地下水などの影響により、地すべり面に沿って斜面下方へ移動する現象",
+      "detail": "地すべりは「地すべり面に沿って移動する」点が重要。急激ながけ崩れとは異なり、比較的ゆっくりした移動が多い。地下水の影響が主要因となることが多く、地質構造（流れ盤・断層等）が素因となる。",
+      "tags": [
+        "第2章",
+        "土砂災害",
+        "地すべり"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-024",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0031-f004",
+      "termId": "0031",
+      "termName": "土砂災害の種類",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "深層崩壊の定義を答えよ。",
+      "answer": "斜面崩壊のうち、表土層だけでなく深層の地盤までもが崩壊土塊となる比較的規模の大きな崩壊現象",
+      "detail": "深層崩壊は通常のがけ崩れ（表層崩壊）より深い部分まで崩壊する。大量の土砂が一気に崩壊するため、被害が甚大になりやすい。近年、集中豪雨や台風による深層崩壊が増加している。",
+      "tags": [
+        "第2章",
+        "土砂災害"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-02-022",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0032-f001",
+      "termId": "0032",
+      "termName": "地すべりの素因と誘因",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "地すべりの「素因」と「誘因」の違いを答えよ。",
+      "answer": "素因＝地すべりを起こしやすい地質構造・地形的条件。誘因＝地すべりを実際に引き起こす外的要因（引き金）",
+      "detail": "素因とは地形・地質など地すべりが発生しやすい潜在的条件（例：流れ盤・断層・破砕帯・新第三紀層・片理面）。誘因とは実際に地すべりを発生させる直接のきっかけ（例：降雨・融雪・地震動・斜面の切土・崩壊荷重）。素因と誘因を混同しないことが重要。",
+      "tags": [
+        "第2章",
+        "地すべり",
+        "素因",
+        "誘因"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-027",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0032-f002",
+      "termId": "0032",
+      "termName": "地すべりの素因と誘因",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "「流れ盤」は地すべりの素因か誘因か。また流れ盤とは何か。",
+      "answer": "素因。流れ盤とは斜面の傾斜と地層の傾斜が同方向の地質構造",
+      "detail": "流れ盤は地すべりを起こしやすい地質構造であり、素因に分類される。誘因（斜面の切土・地震動・融雪など）ではない。試験では「流れ盤が誘因である」という誤りの選択肢が出題される（令和3年度）。",
+      "tags": [
+        "第2章",
+        "地すべり",
+        "素因"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "3-02-027",
+          "yearKey": "R3",
+          "yearLabel": "令和3年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0032-f003",
+      "termId": "0032",
+      "termName": "地すべりの素因と誘因",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "「斜面の切土」は地すべりの素因か誘因か。",
+      "answer": "誘因",
+      "detail": "斜面の切土は地すべりを引き起こす外的要因（誘因）であり、素因ではない。試験では「斜面の切土が素因である」という誤りの選択肢が出題される（令和7年度）。素因の例：流れ盤・断層・破砕帯・片理面・新第三紀層（モンモリロナイト含有）。誘因の例：降雨・融雪・地震動・斜面の切土・崩壊荷重。",
+      "tags": [
+        "第2章",
+        "地すべり",
+        "誘因"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-02-028",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0032-f004",
+      "termId": "0032",
+      "termName": "地すべりの素因と誘因",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "地すべり調査で「地下水検層」を行った場合、一般的に得られる成果は何か。また得られない成果は何か。",
+      "answer": "得られる：地下水流動層の特定。得られない：すべり面深度の特定",
+      "detail": "地下水検層では地下水流動層を特定できるが、すべり面深度の直接特定は困難。地下水検出深度を基にすべり面位置の「推定」は行えるが、確定的な特定には別の調査（孔内傾斜計・ボーリング等）が必要。試験では「地下水検層でずべり面深度を特定できる」という誤りの選択肢が出題される（令和5年度）。",
+      "tags": [
+        "第2章",
+        "地すべり",
+        "調査"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-02-027",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0033-f001",
+      "termId": "0033",
+      "termName": "根切り工事トラブル",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "根切り工事でボイリングが発生しやすい地盤を答えよ。またボイリングの現象を説明せよ。",
+      "answer": "砂質土地盤（粘性土地盤ではない）。地下水位差により、土留側の水が掘削面側に回り込み、砂と水が湧き出す現象",
+      "detail": "ボイリングは砂質土地盤で発生する。粘性土地盤でボイリングが起こるという記述は誤り（令和5年度出題の誤り選択肢）。語源は「Boiling（沸騰）」。地下水位が高い場合などで、土留背面と掘削面側の水位差が大きくなり発生する。ヒービングとは異なる。",
+      "tags": [
+        "第2章",
+        "根切り工事",
+        "ボイリング"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "5-02-024",
+          "yearKey": "R5",
+          "yearLabel": "令和5年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0033-f002",
+      "termId": "0033",
+      "termName": "根切り工事トラブル",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "ヒービングが発生しやすい地盤と、ヒービングの現象を答えよ。",
+      "answer": "軟弱な粘性土地盤。土留背面の土の重量でずべり面が生じ、掘削底面が隆起する現象",
+      "detail": "ヒービングは軟弱な粘性土地盤で発生する。掘削底面に軟弱な粘性土があり、土留背面の土の重量などによりすべり面が生じ、掘削底面が隆起等する。ボイリング・パイピング・液状化は砂質土地盤が主なので、軟弱粘性土を直接の原因とするトラブルはヒービングが正解（令和7年度）。",
+      "tags": [
+        "第2章",
+        "根切り工事",
+        "ヒービング"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-02-024",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0033-f003",
+      "termId": "0033",
+      "termName": "根切り工事トラブル",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "根切り工事における「盤膨れ」の発生条件を答えよ。",
+      "answer": "掘削底面付近が不透水層、その下層に透水性の良い帯水層がある場合。掘削により被圧地下水が不透水層を突き破る",
+      "detail": "盤膨れは被圧地下水による現象。掘削底面付近の不透水層と、その下の被圧帯水層の水圧バランスが、掘削により崩れることで発生する。対策：ディープウェル工法（地下水位低下）・薬液注入工法（止水）・止水壁根入れ（地下水遮断）。バイブロフローテーション工法（砂地盤締め固め）は盤膨れ対策ではない。",
+      "tags": [
+        "第2章",
+        "根切り工事",
+        "盤膨れ"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "4-02-025",
+          "yearKey": "R4",
+          "yearLabel": "令和4年度",
+          "chapter": 2,
+          "chapterLabel": "第2章",
+          "isSupplemental": false
+        }
+      ],
+      "isSupplementalOnly": false
+    },
+    {
+      "cardId": "0033-f004",
+      "termId": "0033",
+      "termName": "根切り工事トラブル",
+      "chapters": [
+        2
+      ],
+      "chapterLabels": [
+        "第2章"
+      ],
+      "prompt": "根切り工事において、砂質土地盤と粘性土地盤それぞれで発生しやすいトラブルを分類せよ。",
+      "answer": "砂質土：ボイリング・パイピング・液状化・盤膨れ（被圧地下水）。粘性土：ヒービング",
+      "detail": "分類まとめ：\n・ボイリング → 砂質土（地下水位差で砂と水が湧出）\n・パイピング → 砂質土（浸透流で管状の水みちが形成）\n・液状化 → 飽和した緩い砂地盤\n・ヒービング → 軟弱粘性土（掘削底面が隆起）\n・盤膨れ → 被圧帯水層上の不透水層が破れる\n・圧密沈下 → 粘性土（水位低下工法施工時に周辺で発生）",
+      "tags": [
+        "第2章",
+        "根切り工事"
+      ],
+      "sourceRefs": [
+        {
+          "occurrenceId": "7-02-024",
+          "yearKey": "R7",
+          "yearLabel": "令和7年度",
           "chapter": 2,
           "chapterLabel": "第2章",
           "isSupplemental": false
