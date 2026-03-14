@@ -121,3 +121,9 @@
   border-color: #6b7a8d;
   color: #6b7a8d;
 }
+
+.btnShuffle[aria-pressed='true']:hover {
+  background: #6b7a8d;
+  color: #fff;
+  border-color: #6b7a8d;
+}
