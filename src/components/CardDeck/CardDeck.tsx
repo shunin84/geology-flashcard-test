@@ -42,44 +42,48 @@ export function CardDeck({ cards }: Props) {
       <FlashCard card={card} isFlipped={isFlipped} onFlip={flip} />
 
       <div className={styles.controls}>
-        <button
-          className={`${styles.btn} ${styles.btnNav}`}
-          onClick={() => goPrev(cards.length)}
-          aria-label="前のカードへ"
-        >
-          ← 前の問題へ
-        </button>
-        <button
-          className={`${styles.btn} ${styles.btnLearned}`}
-          onClick={handleLearned}
-          aria-pressed={progress.learned}
-          aria-label={progress.learned ? '学習済みを解除' : '学習済みにする'}
-        >
-          {progress.learned ? '✓ 学習済み' : '学習済み'}
-        </button>
-        <button
-          className={`${styles.btn} ${styles.btnFlag}`}
-          onClick={handleFlag}
-          aria-pressed={progress.flagged}
-          aria-label={progress.flagged ? '要復習を解除' : '要復習にする'}
-        >
-          {progress.flagged ? '★ 要復習' : '要復習'}
-        </button>
-        <button
-          className={`${styles.btn} ${styles.btnNav}`}
-          onClick={() => goNext(cards.length)}
-          aria-label="次のカードへ"
-        >
-          次の問題へ →
-        </button>
-        <button
-          className={`${styles.btn} ${styles.btnShuffle}`}
-          onClick={() => setShuffleEnabled(!isShuffleEnabled)}
-          aria-pressed={isShuffleEnabled}
-          aria-label={isShuffleEnabled ? 'シャッフルをオフにする' : 'シャッフルをオンにする'}
-        >
-          {isShuffleEnabled ? '🔀 シャッフル中' : 'シャッフル'}
-        </button>
+        <div className={styles.navRow}>
+          <button
+            className={`${styles.btn} ${styles.btnNav}`}
+            onClick={() => goPrev(cards.length)}
+            aria-label="前のカードへ"
+          >
+            ← 前の問題へ
+          </button>
+          <button
+            className={`${styles.btn} ${styles.btnNav}`}
+            onClick={() => goNext(cards.length)}
+            aria-label="次のカードへ"
+          >
+            次の問題へ →
+          </button>
+        </div>
+        <div className={styles.actionRow}>
+          <button
+            className={`${styles.btn} ${styles.btnLearned}`}
+            onClick={handleLearned}
+            aria-pressed={progress.learned}
+            aria-label={progress.learned ? '学習済みを解除' : '学習済みにする'}
+          >
+            {progress.learned ? '✓ 学習済み' : '学習済み'}
+          </button>
+          <button
+            className={`${styles.btn} ${styles.btnFlag}`}
+            onClick={handleFlag}
+            aria-pressed={progress.flagged}
+            aria-label={progress.flagged ? '要復習を解除' : '要復習にする'}
+          >
+            {progress.flagged ? '★ 要復習' : '要復習'}
+          </button>
+          <button
+            className={`${styles.btn} ${styles.btnShuffle}`}
+            onClick={() => setShuffleEnabled(!isShuffleEnabled)}
+            aria-pressed={isShuffleEnabled}
+            aria-label={isShuffleEnabled ? 'シャッフルをオフにする' : 'シャッフルをオンにする'}
+          >
+            シャッフル
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -28,9 +28,28 @@
 
 .controls {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.navRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.navRow .btn {
+  flex: 1;
+}
+
+.actionRow {
+  display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+.actionRow .btn {
+  flex: 1;
 }
 
 .btn {

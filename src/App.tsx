@@ -102,25 +102,32 @@ function App() {
           </h1>
 
           {screen === 'cards' && loadState.type === 'loaded' && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: 'auto' }}>
+              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', whiteSpace: 'nowrap' }}>
                 {selectedChapterLabel}　{filteredCards.length}枚
               </span>
               <button
                 onClick={handleBackToChapterSelect}
+                aria-label="章選択に戻る"
                 style={{
-                  fontSize: '0.85rem',
+                  fontSize: '1.1rem',
                   fontWeight: 700,
-                  padding: '0.45rem 1rem',
-                  background: 'var(--color-accent)',
-                  border: 'none',
-                  borderRadius: 'var(--radius-control)',
-                  color: '#fff',
+                  lineHeight: 1,
+                  width: '2rem',
+                  height: '2rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: 'transparent',
+                  border: '2px solid var(--color-border)',
+                  borderRadius: '50%',
+                  color: 'var(--color-text-muted)',
                   cursor: 'pointer',
                   fontFamily: 'inherit',
+                  flexShrink: 0,
                 }}
               >
-                ← 章を変える
+                ×
               </button>
             </div>
           )}
